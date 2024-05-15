@@ -34,6 +34,7 @@ def add_todo():
     save_todo_list()
     return redirect(url_for("index"))
 
+# Add Function to Save To-Do List
 def save_todo_list():
     with open(todo_file, "w") as file:
         for todo in todo_list:
