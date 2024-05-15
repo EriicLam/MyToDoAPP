@@ -1,9 +1,20 @@
 body {
-    background-color: rgb(36, 86, 1); 
-    color: white;  
+    color: darkslategray;  /* default font color */
     font-family: Arial, sans-serif;
+    background-image: url("../images/Designer02.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+label {
+    color: white
 }
 
 h1 {
-    color: blue; 
+    color: rgb(2, 80, 53); /* font for the h1 header*/
+}
+
+.list-group-item {
+    color: #333; /* dark grey */
 }
